@@ -1,10 +1,17 @@
 /**
- * OOPSBannerApp UC1 – OOPS Banner Display Application
+ * OOPSBannerApp UC3 – OOPS Banner Application (Use Case 3)
  * @author Developer
- * @version 1.0
+ * @version 3.0
  */
 public class OOPSBannerApp {
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        // Using String.join() instead of + for better efficiency
+        System.out.println(String.join(" ", "   ***   ", "   ***   ", "******   ", "  *****  "));
+        System.out.println(String.join(" ", " **   ** ", " **   ** ", "**    ** ", " **      "));
+        System.out.println(String.join(" ", "**     **", "**     **", "**     **", "  **     "));
+        System.out.println(String.join(" ", "**     **", "**     **", "**    ** ", "    ***  "));
+        System.out.println(String.join(" ", "**     **", "**     **", "******   ", "      ** "));
+        System.out.println(String.join(" ", " **   ** ", " **   ** ", "**       ", "     **  "));
+        System.out.println(String.join(" ", "   ***   ", "   ***   ", "**       ", " ****    "));
     }
 }
